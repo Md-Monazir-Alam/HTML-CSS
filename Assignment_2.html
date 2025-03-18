@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        th,tr,td{
+            border : 2px solid brown
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="Assignment_1.html">My First HTML Page</a>
+    <table>
+        <caption>Assignment2-Table</caption>
+        <thead>
+            <tr>
+                <th style="color: red;">Item</th>
+                <th style="color: red;">Quantity</th>
+                <th style="color: red;">Unit Price</th>
+                <th style="color: red;">Price</th>
+            </tr>
+        </thead>
+            
+            <tr>
+                <td>Pencils</td>
+                <td>2</td>
+                <td>$1</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td>Erasers</td>
+                <td>4</td>
+                <td rowspan="2">$0.50</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td colspan="2">Subtotal</td>
+                <td>$4</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>10%</td>
+                <td colspan="2">$0.4</td>
+            </tr>
+            <tfoot>
+                <td colspan="4">
+                    Footer of the table
+                </td>
+            </tfoot>
+        </body>
+    </table>
+</body>
+</html>

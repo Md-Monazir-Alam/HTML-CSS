@@ -1,0 +1,86 @@
+/* h1{
+    color:#FFE4C4;
+} */
+
+/* tr{
+    background-color:#FFE4C4;
+}
+th{
+    font-style: #18807D;
+} */
+
+/* #A{
+    color: blue;
+}
+
+#HTML{
+    color: red;
+}
+
+.Frame{
+    color: brown;
+
+}
+
+*{
+    color:chartreuse;
+} */
+
+
+
+/* @font-face {
+    font-family: Oswald;
+    src: url(static/Oswald-Light.ttf);
+}
+
+h3{
+    font-family: oswald-Light;
+    
+    border: 4px red;
+}
+
+h1{
+    color:blueviolet;
+    /* font-variant: small-caps; 
+    font-style: italic;
+    text-decoration: line-through;
+    text-shadow: 10px 3px 5px;
+    border: 5px solid red;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-collapse: separate;
+    outline: 100px;
+    outline-offset: 15px;
+}
+
+p{
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+} */
+
+
+/* -- Combinators */
+
+/* --Adjacent Sibling */ 
+h2+p{
+    color: red;;
+}
+
+/* --General Sibling */
+h2~p{
+    color: red;;
+}
+
+/* -- Child */
+h2>p{
+    color: yellow;;
+}
+
+/* --Descendants */
+ div p{
+    color: red;;
+}
+
+ 
