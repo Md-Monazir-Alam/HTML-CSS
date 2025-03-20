@@ -1,0 +1,58 @@
+div{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.divider{
+    border:2px solid brown ;
+}
+
+.header_item{
+   border: 2px solid brown;
+   border-radius: 20px;
+   height: 20px;
+   width: 150px;
+   background-color: saddlebrown;
+   color: white;
+   text-align: center;
+   display: inline-block;
+   margin: 30px;
+}
+a{
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    text-decoration: none;
+}
+#scroll{
+    overflow: scroll;
+    height: 150px;
+    width: 700px;
+    text-wrap: wrap;
+}
+#auto{
+    overflow: auto;
+    height: 150px;
+    width: 700px;
+    text-wrap: wrap;
+}
+#Hr_scroll{
+    overflow: scroll;
+    height: 50px;
+    width: 100%;
+    text-wrap: nowrap;
+}
+#fullcontent{
+    overflow: visible;
+    height: 100px;
+    width: 700px;
+    text-wrap: wrap;
+}
+#hiddencontent{
+    overflow: hidden;
+    height: 100px;
+    width: 500px;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;    
+}
