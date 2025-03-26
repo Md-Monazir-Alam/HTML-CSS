@@ -1,0 +1,25 @@
+.c1 {
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+
+.c2 {
+
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+
+}
+
+.c3{
+    position: relative;
+    top: 90%;
+    left: 10px;
+    font-size: large;
+    color: white;
+}
